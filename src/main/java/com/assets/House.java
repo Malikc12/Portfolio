@@ -1,6 +1,8 @@
-package com.pluralsight.finance;
+package com.assets;
 
-public class House extends FixedAsset{
+import com.pluralsight.finance.FixedAsset;
+
+public class House extends FixedAsset {
     private  int yearBuilt;
     private int squareFeet;
     private int bedRooms;
